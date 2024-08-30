@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import { ScrollView, StyleSheet } from "react-native";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
@@ -16,8 +17,11 @@ export default function RootLayout() {
   }, []);
 
   return (
-    <Stack>
-      <Stack.Screen name="pages" />
+    <Stack screenOptions={{ headerShown: false}}>
+      <Stack.Screen name="index" 
+      options={{
+        title: "Previsão do Tempo"
+      }}/>
     </Stack>
   );
 }
