@@ -1,7 +1,0 @@
--Utilizando a API Rest Countries https://restcountries.com/#endpoints, desenvolver um app que:
-    -Sua tela inicial seja uma listagem de países agrupados por continentes (utilizar SectionList do React Native https://reactnative.dev/docs/sectionlist)
-        -Exibir ao menos nome comum, nome oficial, capital, continente e bandeira
-    -A tela deverá conter um campo para busca pelo nome do país
-    -Ao clicar em um dos países listados, redirecionar o usuário para outra tela
-        -Nessa outra tela (não utilizar dialog, procurem por passagem de parâmetros no expo-router https://docs.expo.dev/router/reference/hooks/#uselocalsearchparams), o usuário deverá ver outros detalhes do país:
-            - nome, nome oficial, bandeira, capital, moedas, latitude e longitude, lingua oficial, extensão territorial e população
